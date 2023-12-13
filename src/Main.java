@@ -1098,34 +1098,59 @@ public class Main {
 
 
         // 56번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//        int count = Integer.parseInt(br.readLine());
+//
+//        for(int i = 0; i < 2 * count - 1; i++) {
+//            for(int j = 0; j < 2 * count - 1; j++) {
+//                if(i < count) {
+//                    if(j >= count + i){
+//                        continue;
+//                    } else if(j < count - i - 1) {
+//                        System.out.print(' ');
+//                    }else {
+//                        System.out.print('*');
+//                    }
+//                } else {
+//                    if(j <= i - count){
+//                        System.out.print(' ');
+//                    } else if(j >= 3 * count - i - 2) {
+//                        continue;
+//                    } else {
+//                        System.out.print('*');
+//                    }
+//                }
+//            }
+//            if(i < 2 * count - 2) {
+//                System.out.println();
+//            }
+//        }
+//        br.close();
+
+
+
+        // 57번
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//
+//        String str = br.readLine();
+//
+//        StringBuffer sb1 = new StringBuffer(str);
+//        StringBuffer sb2 = new StringBuffer(str);
+//
+//        if(sb1.toString().equals(sb2.reverse().toString())) {
+//            System.out.println("1");
+//        } else {
+//            System.out.println("0");
+//        }
+//        br.close();
+
+
+
+        // 58번
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int count = Integer.parseInt(br.readLine());
-
-        for(int i = 0; i < 2 * count - 1; i++) {
-            for(int j = 0; j < 2 * count - 1; j++) {
-                if(i < count) {
-                    if(j >= count + i){
-                        continue;
-                    } else if(j < count - i - 1) {
-                        System.out.print(' ');
-                    }else {
-                        System.out.print('*');
-                    }
-                } else {
-                    if(j <= i - count){
-                        System.out.print(' ');
-                    } else if(j >= 3 * count - i - 2) {
-                        continue;
-                    } else {
-                        System.out.print('*');
-                    }
-                }
-            }
-            if(i < 2 * count - 2) {
-                System.out.println();
-            }
-        }
+        
 
         br.close();
     }
